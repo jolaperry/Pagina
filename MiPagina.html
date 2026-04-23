@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pagina Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+    <style>
+        .logo {
+            float: right;
+            margin: 10px; 
+            width: 150px; 
+            height: auto;
+        }
+    </style>
+
+<div class="logo-container">
+  <img src="gif-izquierdo.gif" alt="GIF Izquierdo" class="logo-gif">
+  <img src="logo.png" alt="Logo" class="logo-principal">
+  <img src="gif-derecho.gif" alt="GIF Derecho" class="logo-gif">
+</div>
+    
+
+<body>
+
+    <header>
+        <h1 style="color: rgb(218, 218, 230) ; font-size: 48px; ">Assassin's Creed</h1>
+        <h2 style="color: blue ; font-size: 20px; ">Unete al Credo</h2>
+        <nav>
+            <ul>
+                <a href="https://www.santotomas.cl/">Inicio</a>
+                <a href="#">Servicios</a>
+                <a href="#">Horarios</a>
+                <a href="#">Conocenos</a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" >
+            <h2>Innovación para el mundo real</h2>
+            <p>Usamos estándares W3C para crear el futuro. </p>
+        </section>
+
+        <section id="servicios">
+            <h3>Nuestros Servicios</h3>
+        </section>
+    </main>
+
+    <form action="" >
+    <div id="input-nombre"> <!-- id de nuestro DIV para darle diseño en style.css -->
+        <h2>Ingresa tus datos: </h2>
+        <label for="nombre">Nombre:</label> <!-- Texto arriba del input -->
+        <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre " pattern=".{2,16}"
+            title="Ingrese su nombre completo (2-16 caracteres)" required>
+
+        <div id="margen">
+            <label for="apellido">Apellido:</label> <!-- Texto arriba del input -->
+            <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido " pattern=".{2,16}"
+                title="Ingrese su apellido completo (2-16 caracteres)" required>
+        </div>
+        
+        <label for="numTelefono">Telefono:</label> <!-- Texto arriba del input -->
+        <input type="text" id="numTelefono" name="numTelefono" placeholder="Ingrese su número de Teléfono"
+            pattern=".{2,16}" title="Ingrese su número de Teléfono" required>
+
+        <button type="submit">Enviar</button>
+        </form>
+
+        
+    </div>
+
+
+
+ 
+    <aside>
+        <h4>Noticias Recientes</h4>
+        <p>¡Lanzamos nuestro nuevo Kit de Arquitectura!</p>
+    </aside>
+
+    
+
+<ul>
+    <a href="https://www.instagram.com/" target="_blank">
+        <img src="igIco.png" alt="  Descripción de la imagen" class="imagen-enlace"></a>
+
+    <a href="https://www.youtube.com/" target="_blank">
+        <img src="ytIco.png" alt="  Descripción de la imagen" class="imagen-enlace"></a>
+
+    <a href="https://www.instagram.com/" target="_blank">
+        <img src="tiktokIco.png" alt="  Descripción de la imagen" class="imagen-enlace"></a>
+</ul>
+
+    <footer>
+        <p>&copy; 2026 - Programación Web IP-CFT Santo Tomás</p>
+    </footer>
+</body>
+
+
+
+
+</html>

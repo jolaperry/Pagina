@@ -1,0 +1,103 @@
+/* Estilos básicos: centrar contenido y fondo celeste */
+body {
+	background: linear-gradient(to right, #ffffff, #a39a97b9, #272625);
+	display: flex;
+	flex-direction: column;
+	align-items: center; /* centra horizontalmente */
+	justify-content: flex-start;
+	margin: 0;
+	padding: 20px;
+	min-height: 100vh;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilo para h2 */
+h2 {
+	color: #f0f3f7; /* azul oscuro */
+	text-align: center;
+	font-size: 2rem;
+	margin: 0.5rem 0;
+}
+
+/* Estilo para h4 */
+h4 {
+	color: #220815; /* rosa, para mantener armonía con el HTML */
+	text-align: center;
+	font-size: 1.05rem;
+	margin: 0.5rem 0;
+}
+
+/* Estilo para el div de los input con el ID input-nombre*/
+#input-nombre {
+    background-color: #e0d2d2; /* COLOR FONDO BLANCO */
+    
+    padding: 20px; /* EJEMPLO DE PADDING */
+    border-radius: 10px; /* EJEMPLO DE BORDES REDONDEADOS */
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* EJEMPLO DE SOMBRA */
+    width: 300px; /* EJEMPLO DE ANCHO */
+    
+    margin-top: 20px; /* EJEMPLO DE MARGEN SUPERIOR */
+    margin-bottom: 20px; /* EJEMPLO DE MARGEN INFERIOR */
+}
+
+/* Estilos para el input de nombre asociado al Pattern*/
+input:valid {
+  background-color: rgb(199, 212, 18);
+}
+
+input:invalid {
+  background-color: lightpink;
+}
+
+#margen {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}	
+
+label{
+	font-size: 20px;
+	font-weight: bold;
+	color:blue;
+}
+
+h2 {
+  text-decoration: underline overline;
+}
+
+h1 {
+  text-shadow: 2px 2px #ff0000;
+}
+
+p {
+  text-decoration: underline overline;
+}
+a {
+    margin-right: 15px;
+}
+
+.imagen-enlace {
+    border: none;       /* Elimina bordes azules en algunos navegadores */
+    cursor: pointer;    /* Muestra la mano al pasar el mouse */
+    width: 50px;       /* Ajusta el tamaño según necesites */
+    height: auto;
+}
+
+
+.logo-container {
+  display: flex;
+  justify-content: center; /* Centra todo el conjunto */
+  align-items: center;    /* Alinea verticalmente los elementos */
+  gap: 20px;              /* Espacio entre GIFs y logo */
+}
+
+.logo-gif {
+  width: 300px;            /* Ajusta el tamaño de los GIFs */
+  height: auto;
+}
+
+.logo-principal {
+  width: 150px;           /* Ajusta el tamaño de tu logo */
+  height: auto;
+}
